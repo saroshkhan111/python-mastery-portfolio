@@ -1,0 +1,519 @@
+📁 Python_Learning/
+│
+├── 📁 01_basics/                          (5 Programs) ✅ COMPLETE
+│   ├── 📄 01_student_profile.ipynb
+│   ├── 📄 02_shopping_cart.ipynb
+│   ├── 📄 03_temperature_converter.ipynb
+│   ├── 📄 04_simple_interest_calculator.ipynb
+│   └── 📄 05_person_details.ipynb
+│
+├── 📁 02_collections/                     (6 Programs) ⏳ NEXT
+│   ├── 📄 06_list_operations.ipynb
+│   ├── 📄 07_tuple_operations.ipynb
+│   ├── 📄 08_set_operations.ipynb
+│   ├── 📄 09_dictionary_operations.ipynb
+│   ├── 📄 10_range_demo.ipynb
+│   └── 📄 11_frozenset_demo.ipynb
+📁 Folder 02: collections (6 Programs) ⏳ NEXT
+
+📄 06_list_operations.ipynb
+
+Write a Python program that demonstrates various list operations.
+
+Input: None (Hardcoded values)
+
+Output: All list operations results with data types
+
+Operations:
+1. Create a list of 5 fruits
+2. Add a new fruit using append()
+3. Insert a fruit at a specific position using insert()
+4. Remove a fruit using remove()
+5. Access elements using indexing
+6. Slice the list to get first 3 elements
+7. Find the length of the list using len()
+8. Loop through the list and print each item
+9. Sort the list using sort()
+10. Reverse the list using reverse()
+11. Check if an element exists using 'in' operator
+12. Add multiple items using extend()
+
+Conditions:
+1. Use list data type
+2. Use append(), insert(), remove(), sort(), reverse(), extend()
+3. Use indexing and slicing
+4. Use len() function
+5. Use for loop
+6. Use 'in' operator
+7. Display each operation result with data type
+
+
+📄 07_tuple_operations.ipynb
+
+Write a Python program that demonstrates various tuple operations.
+
+Input: None (Hardcoded values)
+
+Output: All tuple operations results with data types
+
+Operations:
+1. Create a tuple of 5 colors
+2. Access elements using indexing
+3. Access last element using negative indexing
+4. Find length of tuple using len()
+5. Count occurrences of a specific element using count()
+6. Find index of a specific element using index()
+7. Try to change a tuple element (demonstrate error)
+8. Loop through tuple and print each item
+9. Convert tuple to list
+10. Convert tuple to set
+11. Concatenate two tuples
+12. Repeat a tuple using * operator
+
+Conditions:
+1. Use tuple data type
+2. Use count(), index()
+3. Demonstrate immutability (error handling)
+4. Use len() function
+5. Use for loop
+6. Display each operation result with data type
+
+
+📄 08_set_operations.ipynb
+Write a Python program that demonstrates various set operations.
+
+Input: None (Hardcoded values)
+
+Output: All set operations results with data types
+
+Operations:
+1. Create a set of numbers (with duplicates)
+2. Observe that duplicates are removed
+3. Add a new element using add()
+4. Add multiple elements using update()
+5. Remove an element using remove()
+6. Remove an element using discard()
+7. Remove and return an element using pop()
+8. Perform union operation on two sets (A ∪ B)
+9. Perform intersection operation (A ∩ B)
+10. Perform difference operation (A - B)
+11. Perform symmetric difference (A △ B)
+12. Check if an element exists using 'in' operator
+13. Check if one set is subset of another
+14. Check if one set is superset of another
+15. Loop through set and print each item
+
+Conditions:
+1. Use set data type
+2. Use add(), update(), remove(), discard(), pop()
+3. Use union(), intersection(), difference(), symmetric_difference()
+4. Use issubset(), issuperset()
+5. Use 'in' operator
+6. Display each operation result with data type
+
+
+📄 09_dictionary_operations.ipynb
+
+
+Write a Python program that demonstrates various dictionary operations.
+
+Input: None (Hardcoded values)
+
+Output: All dictionary operations results with data types
+
+Operations:
+1. Create a student dictionary with keys: name, age, city, grade, subjects
+2. Access a value using key (e.g., student["name"])
+3. Access a value using get() method
+4. Add a new key-value pair
+5. Update an existing value
+6. Remove a key-value pair using pop()
+7. Remove a key-value pair using del
+8. Remove last item using popitem()
+9. Get all keys using keys()
+10. Get all values using values()
+11. Get all items using items()
+12. Loop through dictionary and print key-value pairs
+13. Check if a key exists using 'in' operator
+14. Get dictionary length using len()
+15. Copy dictionary using copy()
+16. Clear all items using clear()
+
+Conditions:
+1. Use dict data type
+2. Use get(), pop(), popitem(), keys(), values(), items()
+3. Use 'in' operator
+4. Use len() function
+5. Use copy(), clear()
+6. Use for loop
+7. Display each operation result with data type
+
+
+📄 10_range_demo.ipynb
+
+Write a Python program that demonstrates range() function.
+
+Input: None (Hardcoded values)
+
+Output: All range operations results with data types
+
+Operations:
+1. Create a range from 0 to 5 (range(5))
+2. Create a range from 2 to 8 (range(2, 8))
+3. Create a range with step (range(1, 10, 2))
+4. Create a range in reverse (range(10, 0, -1))
+5. Convert range to list
+6. Convert range to tuple
+7. Convert range to set
+8. Loop through range and print each number
+9. Check if a number exists in range
+10. Find length of range
+11. Use range in for loop with index
+12. Create range of even numbers
+13. Create range of odd numbers
+
+Conditions:
+1. Use range() function
+2. Use list(), tuple(), set() conversion
+3. Use len() function
+4. Use 'in' operator
+5. Use for loop
+6. Display each operation result with data type
+
+
+📄 11_frozenset_demo.ipynb
+Write a Python program that demonstrates frozenset operations.
+
+Input: None (Hardcoded values)
+
+Output: All frozenset operations results with data types
+
+Operations:
+1. Create a frozenset from a list
+2. Create a frozenset from a set
+3. Create a frozenset directly
+4. Try to add an element (demonstrate error)
+5. Try to remove an element (demonstrate error)
+6. Perform union operation
+7. Perform intersection operation
+8. Perform difference operation
+9. Perform symmetric difference
+10. Check if an element exists using 'in' operator
+11. Check if subset using issubset()
+12. Check if superset using issuperset()
+13. Loop through frozenset
+14. Convert frozenset to list
+15. Convert frozenset to set
+
+Conditions:
+1. Use frozenset data type
+2. Demonstrate immutability (error handling)
+3. Use 'in' operator
+4. Use issubset(), issuperset()
+5. Use union(), intersection(), difference()
+6. Use for loop
+7. Display each operation result with data type
+
+
+
+
+│
+├── 📁 03_advanced/                        (4 Programs) ⏳ LATER
+│   ├── 📄 12_complex_numbers.ipynb
+│   ├── 📄 13_bytes_demo.ipynb
+│   ├── 📄 14_bytearray_demo.ipynb
+│   └── 📄 15_memoryview_demo.ipynb
+
+
+📁 Folder 03: advanced (4 Programs) ⏳ LATER
+
+📄 12_complex_numbers.ipynb
+
+Write a Python program that demonstrates complex numbers.
+
+Input: None (Hardcoded values)
+
+Output: All complex number operations results with data types
+
+Operations:
+1. Create a complex number: 3 + 4j
+2. Create a complex number using complex() function
+3. Access real part using .real
+4. Access imaginary part using .imag
+5. Perform addition of two complex numbers
+6. Perform subtraction of two complex numbers
+7. Perform multiplication of two complex numbers
+8. Perform division of two complex numbers
+9. Find conjugate of a complex number using .conjugate()
+10. Find phase of complex number
+11. Find absolute value using abs()
+12. Check the type of complex number
+13. Convert complex to tuple (real, imag)
+14. Use complex in mathematical expressions
+
+Conditions:
+1. Use complex data type
+2. Use .real and .imag
+3. Use .conjugate()
+4. Use abs() function
+5. Use type() function
+6. Display each operation result with data type
+
+
+📄 15_memoryview_demo.ipynb
+
+Write a Python program that demonstrates memoryview operations.
+
+Input: None (Hardcoded values)
+
+Output: All memoryview operations results with data types
+
+Operations:
+1. Create a memoryview from bytes
+2. Create a memoryview from bytearray
+3. Access elements using indexing
+4. Access elements using slicing
+5. Find length using len()
+6. Convert memoryview to bytes
+7. Convert memoryview to list
+8. Convert memoryview to tuple
+9. Demonstrate memoryview of different types
+10. Cast memoryview to different format
+11. Loop through memoryview
+12. Check the type of memoryview
+13. Check if memoryview is read-only
+14. Release memoryview using release()
+15. Check memoryview format
+
+Conditions:
+1. Use memoryview data type
+2. Use len() function
+3. Use slicing
+4. Use cast() method
+5. Use release() method
+6. Use format attribute
+7. Use for loop
+8. Display each operation result with data type
+
+
+
+│
+├── 📁 04_projects/                        (3 Programs) ⏳ FINAL
+│   ├── 📄 16_student_management_system.ipynb
+│   ├── 📄 17_inventory_management.ipynb
+│   └── 📄 18_data_analysis_mini_project.ipynb
+
+
+📄 16_student_management_system.ipynb
+Write a Python program that creates a student management system.
+
+Input: None (Hardcoded data)
+
+Output: All student management operations results
+
+Operations:
+1. Create a dictionary to store multiple student records
+2. Each student has: id, name, age, grades (list), subjects (list), active (bool)
+3. Display all student records
+4. Display student by id
+5. Display all active students
+6. Display all inactive students
+7. Calculate average grade of a student
+8. Display all student names and grades
+9. Calculate class average
+10. Find student with highest GPA
+11. Find student with lowest GPA
+12. Count students by age group
+13. Display student with complete profile
+14. Convert student record to tuple
+15. Get unique subject list
+
+Conditions:
+1. Use dict for main storage
+2. Use list for grades and subjects
+3. Use bool for active status
+4. Use int for id and age
+5. Use float for GPA
+6. Use str for name and subjects
+7. Use for loops and functions
+8. Use len(), sum(), min(), max()
+9. Use 'in' operator
+10. Display each operation result with data type
+
+
+
+📄 17_inventory_management.ipynb 
+
+Write a Python program that creates an inventory management system.
+
+Input: None (Hardcoded data)
+
+Output: All inventory management operations results
+
+Operations:
+1. Create a dictionary to store products
+2. Each product has: id, name, price (float), quantity (int), category, in_stock (bool)
+3. Display all products
+4. Display product by id
+5. Display products by category
+6. Display in-stock products
+7. Display out-of-stock products
+8. Calculate total inventory value
+9. Calculate average price by category
+10. Find most expensive product
+11. Find cheapest product
+12. Update product price
+13. Update product quantity
+14. Remove a product
+15. Add a new product
+16. Convert product to tuple
+17. Get unique categories
+
+Conditions:
+1. Use dict for main storage
+2. Use float for price
+3. Use int for quantity
+4. Use str for name and category
+5. Use bool for in_stock
+6. Use for loops and functions
+7. Use len(), sum(), min(), max()
+8. Use 'in' operator
+9. Display each operation result with data type
+
+
+📄 18_data_analysis_mini_project.ipynb
+
+
+Write a Python program that performs data analysis on a dataset.
+
+Input: None (Hardcoded data)
+
+Output: All data analysis results
+
+Dataset Structure:
+- Each record has: name, age (int), city (str), salary (float), is_employed (bool), department (str), years_experience (int)
+
+Operations:
+1. Create dataset using list of dictionaries
+2. Display all records
+3. Calculate average age
+4. Calculate average salary
+5. Calculate average salary by department
+6. Calculate average years of experience
+7. Find all people from a specific city
+8. Count employed people
+9. Count unemployed people
+10. Find highest salary
+11. Find lowest salary
+12. Find age distribution (age groups)
+13. Sort by age
+14. Sort by salary
+15. Sort by years of experience
+16. Display summary statistics
+17. Find person with most experience
+18. Find person with least experience
+19. Get unique departments
+20. Count people by department
+
+Conditions:
+1. Use list of dictionaries
+2. Use str, int, float, bool
+3. Use len(), sum(), min(), max(), sorted()
+4. Use for loops and functions
+5. Use dictionary methods
+6. Display each operation result with data type
+
+│
+├── 📁 05_mini_projects/                   (2 Programs) ⏳ BONUS
+│   ├── 📄 19_todo_list_manager.ipynb
+│   └── 📄 20_contact_book.ipynb
+
+
+📄 19_todo_list_manager.ipynb
+
+
+Write a Python program that creates a to-do list manager.
+
+Input: None (Hardcoded data)
+
+Output: All to-do list operations results
+
+Operations:
+1. Create a list to store tasks (each task is a dict with: name, priority (int), completed (bool))
+2. Add a new task using append()
+3. Add a task at specific position using insert()
+4. Remove a task using remove()
+5. Remove last task using pop()
+6. Remove task by index using pop(index)
+7. Mark task as complete (completed = True)
+8. Display all tasks with numbers
+9. Display all tasks with priority
+10. Display pending tasks (completed = False)
+11. Display completed tasks (completed = True)
+12. Count total tasks using len()
+13. Count pending tasks
+14. Count completed tasks
+15. Clear all tasks
+16. Find a task using 'in' operator
+17. Sort tasks by priority
+18. Sort tasks by name
+19. Loop through tasks
+20. Convert task to tuple
+
+Conditions:
+1. Use list data type
+2. Use dict for each task
+3. Use append(), insert(), remove(), pop()
+4. Use len() function
+5. Use 'in' operator
+6. Use for loop
+7. Use sorted() function
+8. Display each operation result with data type
+
+
+
+📄 20_contact_book.ipynb
+
+Write a Python program that creates a contact book.
+
+Input: None (Hardcoded data)
+
+Output: All contact book operations results
+
+Operations:
+1. Create a dictionary to store contacts
+2. Each contact has: name (str), phone (str), email (str), address (dict with street, city, zip)
+3. Add a new contact
+4. Find contact by name
+5. Find contact by phone
+6. Find contact by city
+7. Update contact phone
+8. Update contact email
+9. Update contact address
+10. Remove a contact
+11. Display all contacts
+12. Display contacts by city
+13. Display contacts alphabetically
+14. Count total contacts using len()
+15. Check if contact exists
+16. Display contact as tuple (name, phone)
+17. Display contact as set (unique details)
+18. Display all phone numbers
+19. Display all emails
+20. Find duplicate contacts by name
+
+Conditions:
+1. Use dict for main storage
+2. Use dict for address (street, city, zip)
+3. Use str for name, phone, email
+4. Use tuple for contact representation
+5. Use set for unique details
+6. Use for loops and functions
+7. Use len() function
+8. Use 'in' operator
+9. Use sorted() function
+10. Display each operation result with data type
+│
+├── 📁 screenshots/
+├── 📄 .gitignore
+└── 📄 README.md
