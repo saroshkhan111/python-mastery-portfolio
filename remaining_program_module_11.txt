@@ -8,12 +8,12 @@
 │   └── 📄 05_person_details.ipynb
 │
 ├── 📁 02_collections/                     (6 Programs) ⏳ NEXT
-│   ├── 📄 06_list_operations.ipynb
-│   ├── 📄 07_tuple_operations.ipynb
-│   ├── 📄 08_set_operations.ipynb
-│   ├── 📄 09_dictionary_operations.ipynb
-│   ├── 📄 10_range_demo.ipynb
-│   └── 📄 11_frozenset_demo.ipynb
+│   ├── 📄 06_list_operations.ipynb           complete
+│   ├── 📄 07_tuple_operations.ipynb          complete 
+│   ├── 📄 08_set_operations.ipynb            complete
+│   ├── 📄 09_dictionary_operations.ipynb     complete
+│   ├── 📄 10_range_demo.ipynb                complete
+│   └── 📄 11_frozenset_demo.ipynb            complete
 📁 Folder 02: collections (6 Programs) ⏳ NEXT
 
 📄 06_list_operations.ipynb
