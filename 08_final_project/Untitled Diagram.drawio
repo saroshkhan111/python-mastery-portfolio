@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="xZlrYqBlVtQbXQSYuCez">
+    <mxGraphModel dx="917" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Start Main Execution&#xa;[if __name__ == &#39;__main__&#39;:]" vertex="1">
+          <mxGeometry height="60" width="250" x="275" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_init" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Initialize employees dictionary&#xa;[employees = {101: {...}, ...}]" vertex="1">
+          <mxGeometry height="60" width="250" x="275" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg1_hdr" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Alg 1: Print Header &amp; Lines&#xa;[print(&#39;ALL EMPLOYEES&#39;)]" vertex="1">
+          <mxGeometry height="60" width="280" x="260" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg1_loop" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Loop: For each emp_id, info in employees&#xa;[for emp_id, info in employees.items():]" vertex="1">
+          <mxGeometry height="60" width="320" x="240" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg1_print" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Display Employee Attributes&#xa;[print(f&#39;ID: {emp_id}, Name: {info[&quot;name&quot;]}...&#39;)]" vertex="1">
+          <Geometry height="60" width="320" x="240" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg2_init" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Alg 2: Init Dept Aggregator&#xa;[dept_data = {}]" vertex="1">
+          <mxGeometry height="60" width="250" x="275" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg2_calc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Aggregate Headcount &amp; Total Salary&#xa;[dept_data[dept][&#39;count&#39;] += 1]" vertex="1">
+          <mxGeometry height="60" width="280" x="260" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg2_print" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Print Department Summary &amp; Avg Salary&#xa;[avg = total_salary / count]" vertex="1">
+          <mxGeometry height="60" width="300" x="250" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg3_list" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Alg 3: Extract All Salaries to List&#xa;[all_salaries = [e[&#39;salary&#39;] for e in employees.values()]]" vertex="1">
+          <mxGeometry height="60" width="320" x="240" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg3_calc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Compute Metrics: len, max, min, avg&#xa;[avg_sal = sum(all_salaries)/len(all_salaries)]" vertex="1">
+          <mxGeometry height="60" width="320" x="240" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg3_print" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Display Salary Statistics&#xa;[print(f&#39;Highest: {highest_salary}...&#39;)]" vertex="1">
+          <mxGeometry height="60" width="280" x="260" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg4_dec" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Alg 4: Is ID 106 in employees?&#xa;[if 106 in employees:]" vertex="1">
+          <mxGeometry height="80" width="280" x="260" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg4_err" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Print &#39;Error: Employee already exists!&#39;&#xa;[print(&#39;Error...&#39;)]" vertex="1">
+          <mxGeometry height="60" width="220" x="80" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg4_add" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Add ID 106 &amp; Print Success&#xa;[employees[106] = new_emp]" vertex="1">
+          <mxGeometry height="60" width="220" x="500" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg5_dec" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Alg 5: Is ID 101 in employees?&#xa;[if 101 in employees:]" vertex="1">
+          <mxGeometry height="80" width="280" x="260" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg5_err" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Print &#39;Error: Employee not found!&#39;&#xa;[print(&#39;Error...&#39;)]" vertex="1">
+          <mxGeometry height="60" width="220" x="80" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg5_upd" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Update Fields &amp; Print Details&#xa;[employees[101][&#39;position&#39;] = &#39;Senior Dev&#39;]" vertex="1">
+          <mxGeometry height="60" width="220" x="500" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg6_dec" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Alg 6: Is ID 104 in employees?&#xa;[if 104 in employees:]" vertex="1">
+          <mxGeometry height="80" width="280" x="260" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg6_err" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Print &#39;Error: Employee does not exist!&#39;&#xa;[print(&#39;Error...&#39;)]" vertex="1">
+          <mxGeometry height="60" width="220" x="80" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="node_alg6_del" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Delete ID 104 using del&#xa;[del employees[104]]" vertex="1">
+          <mxGeometry height="60" width="220" x="500" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="node_final_list" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Display Remaining Employees List&#xa;[for emp_id, info in employees.items():]" vertex="1">
+          <mxGeometry height="60" width="300" x="250" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="node_completion" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Print Completion Banner&#xa;[print(&#39;ALL CONCEPTS DEMONSTRATED SUCCESSFULLY!&#39;)]" vertex="1">
+          <mxGeometry height="60" width="360" x="220" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="End Execution" vertex="1">
+          <mxGeometry height="60" width="250" x="275" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="node_start" target="node_init">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="node_init" target="node_alg1_hdr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="node_alg1_hdr" target="node_alg1_loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="node_alg1_loop" target="node_alg1_print">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="node_alg1_print" target="node_alg2_init">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="node_alg2_init" target="node_alg2_calc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="node_alg2_calc" target="node_alg2_print">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="node_alg2_print" target="node_alg3_list">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="node_alg3_list" target="node_alg3_calc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="node_alg3_calc" target="node_alg3_print">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="node_alg3_print" target="node_alg4_dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12_yes" edge="1" parent="1" source="node_alg4_dec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;strokeColor=#b85450;fontColor=#b85450;fontStyle=1;" target="node_alg4_err" value="Yes (Already Exists)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12_no" edge="1" parent="1" source="node_alg4_dec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;strokeColor=#82b366;fontColor=#82b366;fontStyle=1;" target="node_alg4_add" value="No (New Employee)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13_a" edge="1" parent="1" source="node_alg4_err" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="node_alg5_dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13_b" edge="1" parent="1" source="node_alg4_add" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="node_alg5_dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14_no" edge="1" parent="1" source="node_alg5_dec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;strokeColor=#b85450;fontColor=#b85450;fontStyle=1;" target="node_alg5_err" value="No (Not Found)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14_yes" edge="1" parent="1" source="node_alg5_dec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;strokeColor=#82b366;fontColor=#82b366;fontStyle=1;" target="node_alg5_upd" value="Yes (Found)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15_a" edge="1" parent="1" source="node_alg5_err" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="node_alg6_dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15_b" edge="1" parent="1" source="node_alg5_upd" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="node_alg6_dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge16_no" edge="1" parent="1" source="node_alg6_dec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;strokeColor=#b85450;fontColor=#b85450;fontStyle=1;" target="node_alg6_err" value="No (Not Found)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge16_yes" edge="1" parent="1" source="node_alg6_dec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;strokeColor=#82b366;fontColor=#82b366;fontStyle=1;" target="node_alg6_del" value="Yes (Found)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge17_a" edge="1" parent="1" source="node_alg6_err" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="node_final_list">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge17_b" edge="1" parent="1" source="node_alg6_del" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="node_final_list">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge18" edge="1" parent="1" source="node_final_list" target="node_completion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge19" edge="1" parent="1" source="node_completion" target="node_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
