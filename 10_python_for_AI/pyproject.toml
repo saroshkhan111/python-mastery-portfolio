@@ -1,0 +1,17 @@
+[project]
+name = "10-python"
+version = "0.1.0"
+description = "This environment for python Learning for Agentic AI Course"
+readme = "README.md"
+authors = [
+    { name = "Sarosh Khan", email = "saroshkhan824@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+10-python = "10_python:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
