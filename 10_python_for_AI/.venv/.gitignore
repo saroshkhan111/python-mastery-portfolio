@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+*.pyc
+11_python_for_pdf_notes/
